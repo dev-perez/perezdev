@@ -1,0 +1,129 @@
+.servicos {
+  padding: 4rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--blue);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.section-inner h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.section-sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+}
+
+.pacotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.pacote-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.pacote-card.destaque {
+  border: 2px solid var(--blue);
+}
+
+.popular-badge {
+  display: inline-block;
+  background: var(--blue-light);
+  color: var(--blue-dark);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.pacote-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.preco {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.prazo {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: -0.5rem;
+}
+
+.pacote-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.pacote-card ul li {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.check {
+  color: var(--teal);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.pacote-card button {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.pacote-card .btn-primary {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+}
+
+.pacote-card .btn-primary:hover {
+  background: var(--blue-dark);
+}
+
+.pacote-card .btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.pacote-card .btn-secondary:hover {
+  background: var(--bg-secondary);
+}
