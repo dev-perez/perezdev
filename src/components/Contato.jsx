@@ -28,7 +28,7 @@ export default function Contato() {
           </a>
         </div>
 
-        <div className="contato-form-wrapper">
+        <div className="contato-form-wrapper"> 
           {enviado ? (
             <div className="form-sucesso">
               <div className="sucesso-icon">✓</div>

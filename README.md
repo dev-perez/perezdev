@@ -44,7 +44,7 @@ perezdev/
 
 ## Personalizações importantes
 
-- `Contato.jsx` → Troque `55SEUNUMERO` pelo seu número de WhatsApp
+- `Contato.jsx` → Troque `13974019301` pelo seu número de WhatsApp
 - `index.css` → Ajuste as cores se quiser mudar a identidade visual
 - `Portfolio.jsx` → Substitua pelos seus projetos reais com o tempo
 - `Servicos.jsx` → Ajuste preços e itens conforme necessário
