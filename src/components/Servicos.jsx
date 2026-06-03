@@ -4,7 +4,7 @@ import './Servicos.css'
 const pacotes = [
   {
     nome: 'Básico',
-    preco: 'R$1.500',
+    preco: 'R$500',
     prazo: '7 dias úteis',
     itens: [
       'Landing page 5 seções',
@@ -16,7 +16,7 @@ const pacotes = [
   },
   {
     nome: 'Pro',
-    preco: 'R$2.500',
+    preco: 'R$800',
     prazo: '10 dias úteis',
     destaque: true,
     itens: [
@@ -29,7 +29,7 @@ const pacotes = [
   },
   {
     nome: 'Premium',
-    preco: 'R$4.000',
+    preco: 'R$1000',
     prazo: '14 dias úteis',
     itens: [
       'Tudo do Pro',

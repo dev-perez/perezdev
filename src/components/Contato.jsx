@@ -14,7 +14,7 @@ export default function Contato() {
     setEnviado(true)
   }
 
-  const whatsappLink = `https://wa.me/55SEUNUMERO?text=Olá%20Perez,%20quero%20saber%20mais%20sobre%20o%20site`
+  const whatsappLink = `https://wa.me/5513974019301?text=Olá%20Perez,%20quero%20saber%20mais%20sobre%20o%20site`
 
   return (
     <section className="contato" id="contato">
